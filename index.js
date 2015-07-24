@@ -12,7 +12,7 @@ function frequencies (input) {
   
   var reals = ndarray(data, input.shape, input.stride, input.offset)
   var imags = ndarray(new Float32Array(data.length), input.shape, input.stride, input.offset)
-  
+
   fft(1, reals, imags)
   mag(reals, reals, imags)
 
