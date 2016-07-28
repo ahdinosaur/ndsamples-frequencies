@@ -16,5 +16,5 @@ function frequencies (input) {
   fft(1, reals, imags)
   mag(reals, reals, imags)
 
-  return reals
+  return reals.hi(data.length / 2)
 }
