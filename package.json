@@ -1,6 +1,6 @@
 {
   "name": "ndsamples-frequencies",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "split an ndsample frame into frequencies",
   "main": "index.js",
   "scripts": {
