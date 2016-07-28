@@ -26,7 +26,6 @@
   "dependencies": {
     "ndarray": "^1.0.18",
     "ndarray-complex": "^1.0.3",
-    "ndarray-fft": "^1.0.0",
-    "through2": "^2.0.0"
+    "ndarray-fft": "^1.0.0"
   }
 }
